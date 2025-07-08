@@ -1,0 +1,102 @@
+body {
+    background-color: #0c2d48;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.tab-container .tab-card {
+    background: #f1f1f1;
+    color: #000;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.tab-container .tab-card.active {
+    background: #fff;
+    font-weight: bold;
+    border-left: 4px solid #00b8ff;
+}
+
+.tab-card img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.carousel-item {
+    background-color: #6ec6e6;
+    color: #fff;
+    min-height: 300px;
+    padding: 60px 40px;
+    position: relative;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+
+.accordion-item .accordion-button::after {
+    font-size: 1.2rem;
+}
+
+.accordion-body {
+    color: white;
+    padding: 20px;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.learn-more {
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.tab-card {
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.tab-card.active {
+    font-weight: bold;
+}
+
+.tab-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #6ec6e6;
+    display: none;
+    margin-left: 8px;
+}
+
+.arrow-right.show {
+    display: inline-block;
+}
