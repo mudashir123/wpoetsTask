@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# wpoetsTask
-=======
 # Full Stack Test
 WPoets Full Stack Developer Test
 
@@ -48,4 +45,3 @@ Please answer the following questions in a markdown file called <code>Answers to
 	<li>How would you track down a performance issue in production? Have you ever had to do this?</li>
 	<li>Please describe yourself using JSON.</li>
 </ul>
->>>>>>> 595ff77 (Initial commit)
